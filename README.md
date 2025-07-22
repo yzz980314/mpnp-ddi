@@ -1,4 +1,3 @@
-# mpnp-ddi
 A Multi-Scale Graph Neural Process with Cross-Drug Co-Attention for Drug-Drug Interaction Prediction
 
 This repository contains the official PyTorch implementation for an enhanced framework to predict Drug-Drug Interactions (DDI). The core of this project is the Improved_MPNP_DDI model, which leverages concepts to create multi-scale drug representations. It incorporates co-attention mechanisms and uncertainty estimation to provide robust and interpretable DDI predictions.
@@ -107,4 +106,3 @@ This directory contains:
     model/: Stores the best performing model checkpoint (best_model.pth).
     enhanced_mpnp_training_curves.png: A plot visualizing the training process, including losses and performance metrics (AUROC, etc.) over epochs.
     final_summary.csv: A summary of the best performance achieved during the experiment.
-
